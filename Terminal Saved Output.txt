@@ -1,0 +1,294 @@
+Last login: Sat May 28 19:52:49 on ttys004
+-bash: alias: ssesh: not found
+-bash: alias: =: not found
+-bash: alias: `ssh -o "StrictHostKeyChecking': invalid alias name
+-bash: alias: stor: not found
+-bash: alias: =: not found
+-bash: alias: cd /tmp;mkfifo backpipe;while :; do nc -l 12344 0<backpipe | nc -x 127.0.0.1:9150 h4px64tpuosfirb4.onion 22 1>backpipe;done: not found
+Daniels-MacBook-Pro:~ daniruhman$ cd downloads
+Daniels-MacBook-Pro:downloads daniruhman$ ssh -i "Avisa.pem" ec2-user@ec2-52-67-47-36.sa-east-1.compute.amazonaws.com
+Last login: Sun May 29 16:40:51 2016 from 177.81.254.180
+[ec2-user@ip-172-31-3-57 ~]$ jobs
+[ec2-user@ip-172-31-3-57 ~]$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.2  19636  2480 ?        Ss   15:52   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    15:52   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    15:52   0:00 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S    15:52   0:00 [kworker/0:0]
+root         5  0.0  0.0      0     0 ?        S<   15:52   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    15:52   0:00 [kworker/u30:0]
+root         7  0.0  0.0      0     0 ?        S    15:52   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    15:52   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    15:52   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    15:52   0:00 [kdevtmpfs]
+root        11  0.0  0.0      0     0 ?        S<   15:52   0:00 [netns]
+root        12  0.0  0.0      0     0 ?        S<   15:52   0:00 [perf]
+root        15  0.0  0.0      0     0 ?        S    15:52   0:00 [xenwatch]
+root        17  0.0  0.0      0     0 ?        S    15:52   0:00 [kworker/u30:2]
+root        20  0.0  0.0      0     0 ?        S    15:52   0:00 [xenbus]
+root        21  0.0  0.0      0     0 ?        S    15:52   0:00 [kworker/0:1]
+root       128  0.0  0.0      0     0 ?        S    15:52   0:00 [khungtaskd]
+root       129  0.0  0.0      0     0 ?        S<   15:52   0:00 [writeback]
+root       131  0.0  0.0      0     0 ?        SN   15:52   0:00 [ksmd]
+root       132  0.0  0.0      0     0 ?        SN   15:52   0:00 [khugepaged]
+root       133  0.0  0.0      0     0 ?        S<   15:52   0:00 [crypto]
+root       134  0.0  0.0      0     0 ?        S<   15:52   0:00 [kintegrityd]
+root       135  0.0  0.0      0     0 ?        S<   15:52   0:00 [bioset]
+root       137  0.0  0.0      0     0 ?        S<   15:52   0:00 [kblockd]
+root       488  0.0  0.0      0     0 ?        S<   15:52   0:00 [md]
+root       616  0.0  0.0      0     0 ?        S    15:52   0:00 [kswapd0]
+root       617  0.0  0.0      0     0 ?        S<   15:52   0:00 [vmstat]
+root       689  0.0  0.0      0     0 ?        S    15:52   0:00 [fsnotify_mark]
+root       708  0.0  0.0      0     0 ?        S<   15:52   0:00 [kthrotld]
+root       748  0.0  0.0      0     0 ?        S<   15:52   0:00 [bioset]
+root       752  0.0  0.0      0     0 ?        S<   15:52   0:00 [deferwq]
+root      1353  0.0  0.0      0     0 ?        S<   15:52   0:00 [ata_sff]
+root      1401  0.0  0.0      0     0 ?        S    15:52   0:00 [scsi_eh_0]
+root      1402  0.0  0.0      0     0 ?        S<   15:52   0:00 [scsi_tmf_0]
+root      1405  0.0  0.0      0     0 ?        S    15:52   0:00 [scsi_eh_1]
+root      1407  0.0  0.0      0     0 ?        S<   15:52   0:00 [scsi_tmf_1]
+root      1470  0.0  0.0      0     0 ?        S    15:52   0:00 [jbd2/xvda1-8]
+root      1471  0.0  0.0      0     0 ?        S<   15:52   0:00 [ext4-rsv-conver]
+root      1500  0.0  0.0      0     0 ?        S<   15:52   0:00 [kworker/0:1H]
+root      1518  0.0  0.2  11436  2720 ?        Ss   15:52   0:00 /sbin/udevd -d
+root      1593  0.0  0.0      0     0 ?        S<   15:52   0:00 [kpsmoused]
+root      1641  0.0  0.2  11312  2260 ?        S    15:52   0:00 /sbin/udevd -d
+root      1642  0.0  0.2  11312  2180 ?        S    15:52   0:00 /sbin/udevd -d
+root      1873  0.0  0.0      0     0 ?        S    15:52   0:00 [kauditd]
+root      1929  0.0  0.0      0     0 ?        S<   15:52   0:00 [ipv6_addrconf]
+root      2081  0.0  0.2   9360  2196 ?        Ss   15:53   0:00 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient-eth0.leases -pf /var/run/dhclient-eth0.pid eth0
+root      2133  0.0  0.2  46536  2172 ?        S<sl 15:53   0:00 auditd
+root      2154  0.0  0.2 247464  2996 ?        Sl   15:53   0:00 /sbin/rsyslogd -i /var/run/syslogd.pid -c 5
+root      2176  0.0  0.0   4380    88 ?        Ss   15:53   0:00 rngd --no-tpm=1 --quiet
+rpc       2194  0.0  0.2  35292  2260 ?        Ss   15:53   0:00 rpcbind
+rpcuser   2215  0.0  0.3  39860  3352 ?        Ss   15:53   0:00 rpc.statd
+dbus      2256  0.0  0.0  21792   228 ?        Ss   15:53   0:00 dbus-daemon --system
+root      2385  0.0  0.3  77840  3112 ?        Ss   15:53   0:00 /usr/sbin/sshd
+ntp       2431  0.0  0.4  29288  4264 ?        Ss   15:53   0:00 ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
+root      2451  0.0  0.4  88988  5056 ?        Ss   15:53   0:00 sendmail: accepting connections
+smmsp     2460  0.0  0.3  80444  3916 ?        Ss   15:53   0:00 sendmail: Queue runner@01:00:00 for /var/spool/clientmqueue
+root      2491  0.0  0.2 119520  2368 ?        Ss   15:53   0:00 crond
+root      2505  0.0  0.0  17068   156 ?        Ss   15:53   0:00 /usr/sbin/atd
+root      2529  0.0  0.1   6460  1544 ttyS0    Ss+  15:53   0:00 /sbin/agetty ttyS0 9600 vt100-nav
+root      2531  0.0  0.1   4312  1496 tty1     Ss+  15:53   0:00 /sbin/mingetty /dev/tty1
+root      2534  0.0  0.1   4312  1460 tty2     Ss+  15:53   0:00 /sbin/mingetty /dev/tty2
+root      2537  0.0  0.1   4312  1432 tty3     Ss+  15:53   0:00 /sbin/mingetty /dev/tty3
+root      2539  0.0  0.1   4312  1536 tty4     Ss+  15:53   0:00 /sbin/mingetty /dev/tty4
+root      2541  0.0  0.1   4312  1388 tty5     Ss+  15:53   0:00 /sbin/mingetty /dev/tty5
+root      2543  0.0  0.1   4312  1456 tty6     Ss+  15:53   0:00 /sbin/mingetty /dev/tty6
+root      2718  0.0  0.4 184060  4520 ?        S    15:55   0:00 sudo mongod
+root      2719  0.2  5.4 380952 55400 ?        Sl   15:55   0:36 mongod
+ec2-user  2849  0.0  3.5 607516 36364 ?        Ss   15:56   0:00 /usr/local/bin/node /usr/local/lib/node_modules/forever/bin/monitor server.js
+root      4548  0.0  0.4 184060  4392 ?        S    16:46   0:00 sudo node server.js
+root      4549  0.0  3.8 624980 39544 ?        S    16:46   0:00 node server.js
+root      4550  0.0  0.4 184060  4520 ?        S    16:46   0:00 sudo live-server
+root      4551  0.0  4.2 906012 43056 ?        Sl   16:46   0:01 node /usr/local/bin/live-server
+root      9699  0.0  0.6 117804  6604 ?        Ss   19:40   0:00 sshd: ec2-user [priv]
+ec2-user  9701  0.0  0.3 117804  3696 ?        S    19:40   0:00 sshd: ec2-user@pts/2
+ec2-user  9702  0.0  0.3 115348  3468 pts/2    Ss   19:40   0:00 -bash
+ec2-user  9755  0.0  0.2 117204  2456 pts/2    R+   19:40   0:00 ps aux
+[ec2-user@ip-172-31-3-57 ~]$ jobs
+[ec2-user@ip-172-31-3-57 ~]$ process
+-bash: process: command not found
+[ec2-user@ip-172-31-3-57 ~]$ sudo crontab -e
+crontab: installing new crontab
+[ec2-user@ip-172-31-3-57 ~]$ reboot
+reboot: Need to be root
+[ec2-user@ip-172-31-3-57 ~]$ sudo reboot
+[ec2-user@ip-172-31-3-57 ~]$ 
+Broadcast message from ec2-user@ip-172-31-3-57
+	(/dev/pts/2) at 19:42 ...
+
+The system is going down for reboot NOW!
+Connection to ec2-52-67-47-36.sa-east-1.compute.amazonaws.com closed by remote host.
+Connection to ec2-52-67-47-36.sa-east-1.compute.amazonaws.com closed.
+Daniels-MacBook-Pro:downloads daniruhman$ ssh -i "Avisa.pem" ec2-user@ec2-52-67-47-36.sa-east-1.compute.amazonaws.com
+Last login: Sun May 29 19:40:27 2016 from 177.81.254.180
+[ec2-user@ip-172-31-3-57 ~]$ jobs
+[ec2-user@ip-172-31-3-57 ~]$ tmux
+-bash: tmux: command not found
+[ec2-user@ip-172-31-3-57 ~]$ sudo yum install tmux
+Loaded plugins: priorities, update-motd, upgrade-helper
+Resolving Dependencies
+--> Running transaction check
+---> Package tmux.x86_64 0:1.8-4.12.amzn1 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+============================================================================================================================================================================================================
+ Package                                     Arch                                          Version                                                Repository                                           Size
+============================================================================================================================================================================================================
+Installing:
+ tmux                                        x86_64                                        1.8-4.12.amzn1                                         amzn-updates                                        254 k
+
+Transaction Summary
+============================================================================================================================================================================================================
+Install  1 Package
+
+Total download size: 254 k
+Installed size: 543 k
+Is this ok [y/d/N]: y
+Downloading packages:
+tmux-1.8-4.12.amzn1.x86_64.rpm                                                                                                                                                       | 254 kB     00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : tmux-1.8-4.12.amzn1.x86_64                                                                                                                                                               1/1 
+  Verifying  : tmux-1.8-4.12.amzn1.x86_64                                                                                                                                                               1/1 
+
+Installed:
+  tmux.x86_64 0:1.8-4.12.amzn1                                                                                                                                                                              
+
+Complete!
+[ec2-user@ip-172-31-3-57 ~]$ tmux
+[exited]
+[ec2-user@ip-172-31-3-57 ~]$ tmux attach
+no sessions
+[ec2-user@ip-172-31-3-57 ~]$ tmux
+[detached]
+[ec2-user@ip-172-31-3-57 ~]$ tmux attach
+[detached]
+[ec2-user@ip-172-31-3-57 ~]$ exit
+logout
+Connection to ec2-52-67-47-36.sa-east-1.compute.amazonaws.com closed.
+Daniels-MacBook-Pro:downloads daniruhman$ ssh -i "Avisa.pem" ec2-user@ec2-52-67-47-36.sa-east-1.compute.amazonaws.com
+Last login: Sun May 29 19:42:49 2016 from 177.81.254.180
+[ec2-user@ip-172-31-3-57 ~]$ tmux attach
+[detached]
+[ec2-user@ip-172-31-3-57 ~]$ sudo vi /etc/sysctl.conf  
+[ec2-user@ip-172-31-3-57 ~]$ sudo vi /etc/sysctl.conf  
+[ec2-user@ip-172-31-3-57 ~]$ sudo sysctl -p /etc/sysctl.conf
+net.ipv4.ip_forward = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.default.accept_source_route = 0
+kernel.sysrq = 0
+kernel.core_uses_pid = 1
+net.ipv4.tcp_syncookies = 1
+kernel.msgmnb = 65536
+kernel.msgmax = 65536
+kernel.shmmax = 68719476736
+kernel.shmall = 4294967296
+[ec2-user@ip-172-31-3-57 ~]$ jobs
+[ec2-user@ip-172-31-3-57 ~]$ tmux attach
+[detached]
+[ec2-user@ip-172-31-3-57 ~]$ cd avisaOnline/
+[ec2-user@ip-172-31-3-57 avisaOnline]$ git pull
+Username for 'https://github.com': ruhman
+Password for 'https://ruhman@github.com': 
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+From https://github.com/MarceloPrado/avisaOnline
+   c4b0d16..f5ee012  master     -> origin/master
+Updating c4b0d16..f5ee012
+Fast-forward
+ Front/app/components/filter/filterService.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[ec2-user@ip-172-31-3-57 avisaOnline]$ tmux attach
+[detached]
+[ec2-user@ip-172-31-3-57 avisaOnline]$ tmux attach
+[detached]
+[ec2-user@ip-172-31-3-57 avisaOnline]$ reboot
+reboot: Need to be root
+[ec2-user@ip-172-31-3-57 avisaOnline]$ sudo reboot
+[ec2-user@ip-172-31-3-57 avisaOnline]$ 
+Broadcast message from ec2-user@ip-172-31-3-57
+	(/dev/pts/0) at 20:52 ...
+
+The system is going down for reboot NOW!
+Connection to ec2-52-67-47-36.sa-east-1.compute.amazonaws.com closed by remote host.
+Connection to ec2-52-67-47-36.sa-east-1.compute.amazonaws.com closed.
+Daniels-MacBook-Pro:downloads daniruhman$ ssh -i "Avisa.pem" ec2-user@ec2-52-67-47-36.sa-east-1.compute.amazonaws.com
+^C
+Daniels-MacBook-Pro:downloads daniruhman$ ssh -i "Avisa.pem" ec2-user@ec2-52-67-47-36.sa-east-1.compute.amazonaws.com
+ssh: connect to host ec2-52-67-47-36.sa-east-1.compute.amazonaws.com port 22: Connection refused
+Daniels-MacBook-Pro:downloads daniruhman$ ssh -i "Avisa.pem" ec2-user@ec2-52-67-47-36.sa-east-1.compute.amazonaws.com
+Last login: Sun May 29 20:09:50 2016 from 177.81.254.180
+[ec2-user@ip-172-31-3-57 ~]$ ls
+avisaOnline  file.tar  node  nohup.out  Python-3.5.1
+[ec2-user@ip-172-31-3-57 ~]$ cd avisaOnline/
+[ec2-user@ip-172-31-3-57 avisaOnline]$ git pull
+Username for 'https://github.com': ruhman
+Password for 'https://ruhman@github.com': 
+Already up-to-date.
+[ec2-user@ip-172-31-3-57 avisaOnline]$ tmux
+[detached]
+[ec2-user@ip-172-31-3-57 avisaOnline]$ exit
+logout
+Connection to ec2-52-67-47-36.sa-east-1.compute.amazonaws.com closed.
+Daniels-MacBook-Pro:downloads daniruhman$ ssh -i "Avisa.pem" ec2-user@ec2-52-67-47-36.sa-east-1.compute.amazonaws.com
+Last login: Sun May 29 20:52:40 2016 from 177.81.254.180
+[ec2-user@ip-172-31-3-57 ~]$ tmux kill-session
+[ec2-user@ip-172-31-3-57 ~]$ tmux ls
+failed to connect to server
+[ec2-user@ip-172-31-3-57 ~]$ tmux
+[detached]
+[ec2-user@ip-172-31-3-57 ~]$ tmux kill-session
+[ec2-user@ip-172-31-3-57 ~]$ tmux
+
+[ec2-user@ip-172-31-3-57 ~]$ cd avisaOnline/
+[ec2-user@ip-172-31-3-57 avisaOnline]$ git pull
+Username for 'https://github.com': ruhman
+Password for 'https://ruhman@github.com': 
+remote: Counting objects: 12, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 6), reused 10 (delta 4), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+From https://github.com/MarceloPrado/avisaOnline
+   b47be22..d606f2b  master     -> origin/master
+Updating b47be22..d606f2b
+Fast-forward
+ Front/app/server.js      | 4 ++--
+ Python/tweet_streamer.py | 6 +++---
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+[ec2-user@ip-172-31-3-57 avisaOnline]$ cd Python/
+[ec2-user@ip-172-31-3-57 Python]$ sudo python3.5 tweet_streamer.py &
+[1] 5061
+[ec2-user@ip-172-31-3-57 Python]$ cd ../Front/app
+[1]+  Done                    sudo python3.5 tweet_streamer.py  (wd: ~/avisaOnline/Python)
+(wd now: ~/avisaOnline/Front/app)
+[ec2-user@ip-172-31-3-57 app]$ jobs
+[ec2-user@ip-172-31-3-57 app]$ sudo node server.js &
+[1] 5069
+[ec2-user@ip-172-31-3-57 app]$ API is running on port 2020
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EADDRINUSE
+    at exports._errnoException (util.js:742:11)
+    at Server._listen2 (net.js:1127:14)
+    at listen (net.js:1153:10)
+    at Server.listen (net.js:1238:5)
+    at EventEmitter.listen (/home/ec2-user/avisaOnline/Front/app/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ec2-user/avisaOnline/Front/app/server.js:96:5)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+
+[1]+  Exit 1                  sudo node server.js
+[ec2-user@ip-172-31-3-57 app]$ sudo kill -9 node
+[ec2-user@ip-172-31-3-57 app]$ sudo node server.js &
+[1] 5073
+[ec2-user@ip-172-31-3-57 app]$ API is running on port 2020
+
+[ec2-user@ip-172-31-3-57 app]$ sudo live-server &
+[2] 5075
+[ec2-user@ip-172-31-3-57 app]$ Serving "/home/ec2-user/avisaOnline/Front/app" at http://127.0.0.1:8080
+
+[ec2-user@ip-172-31-3-57 app]$ ^C
+[ec2-user@ip-172-31-3-57 app]$ sudo live-server --port=80 &
+
+
+
+
+
+
+
+
+
+
+[0] 0:bash*                                                                                                                                                         "ec2-user@ip-172-31-3-5" 13:56 30-May-16
